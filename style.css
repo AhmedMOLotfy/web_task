@@ -11,7 +11,7 @@ body{
     text-align: left;
 }
 
-section {
+.about-section-parent {
     padding: 100px 0;
     width: 95%;
     margin: auto
@@ -33,12 +33,12 @@ section {
     letter-spacing: 0.1em;
 }
 
-p {
+.paragraph {
     font-family: "Roboto",sans-serif; 
     line-height: 1.5;
 }
 
-h2 {
+.title {
     text-transform: uppercase;
     font-size: 36px;
     font-weight: 700;
@@ -72,7 +72,7 @@ h2 {
     transform: rotate(-45deg);
 }
 
-strong{
+.title{
     font-family: "Roboto",sans-serif;
 }
 
@@ -81,12 +81,12 @@ strong{
     margin: 0 0 12px;
 }
 
-ul {
+ul.unordered-list-section {
     margin: 0;
     list-style: none;
     padding-left: 0;
 }
-li{
+li.list-item, li.last-row{
     border-bottom: 1px solid #e7e8ff;
     padding: 18px 30px;
 }
@@ -109,7 +109,7 @@ li.last-row{
     box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
 }
 
-h4 {
+.heading-four {
     margin: 0;
     color: #465675;
     font-size: 20px;
@@ -118,16 +118,16 @@ h4 {
 
 
 
-a {
+.anchor {
     display: flex;
 }
-a:link,a:visited,a:hover, a:active {
+a.anchor:link,a.anchor:visited,a.anchor:hover, a.anchor:active {
     text-decoration: none;
     color: #2a81ea;;
   }
   
 
-a::after{
+a.anchor::after{
     content: "\2192";
     margin-left: auto;
 }
