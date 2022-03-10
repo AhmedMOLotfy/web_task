@@ -17,6 +17,12 @@ body{
     margin: auto
 }
 
+.center-section{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .justify-content-between{
     justify-content: space-between !important;
     flex-direction: row;
